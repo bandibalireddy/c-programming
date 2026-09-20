@@ -20,11 +20,36 @@ int main()
     // }
     // printf("%d", i);
 
-    int i;
-    for(i = 1; i<=100; i++)
+    // int i;
+    // for(i = 1; i<=100; i++)
+    // {
+    //     printf("%d\n", i);
+    // }
+
+    // int n;
+    // for(n = 2; n <= 100; n = n + 2)
+    // {
+    //     printf("%d ", n);
+    // }
+
+    // int n;
+    // for(n = 1; n<=100; n++)
+    // {
+    //     if(n % 2 != 0)
+    //     {
+    //         printf("%d ", n);
+    //     }
+    // }
+
+    int n;
+    for(n = 1; n<=100; n++)
     {
-        printf("%d\n", i);
+        if(n % 2 == 0)
+        {
+            printf("%d ", n);
+        }
     }
 
+    
     return 0;
 }
