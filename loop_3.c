@@ -29,21 +29,42 @@
 
 // }
 
-#include <stdio.h>
-int main()
-{
-    int n;
-    int sum = 0;
-    printf("Enter a number : ");
-    scanf("%d", &n);
-    sum = 0;
-    int lastdigit;
-    while(n != 0)
-    {
-        lastdigit = n % 10;
-        sum = sum + lastdigit;
-        n = n / 10;
-    }
-    printf("%d", sum);
-    return 0;
-}
+// #include <stdio.h>
+// int main()
+// {
+//     int n;
+//     int sum = 0;
+//     printf("Enter a number : ");
+//     scanf("%d", &n);
+//     sum = 0;
+//     int lastdigit;
+//     while(n != 0)
+//     {
+//         lastdigit = n % 10;
+//         sum = sum + lastdigit;
+//         n = n / 10;
+//     }
+//     printf("%d", sum);
+//     return 0;
+// }
+
+// #include <stdio.h>
+// int main()
+// {
+//     int n;
+//     int digit;
+//     int reverse;
+//     printf("Enter a number : ");
+//     scanf("%d", &n);
+//     reverse = 0;
+//     while(n != 0)
+//     {
+//         digit = n % 10;
+//         reverse = reverse + digit;
+//         reverse = reverse * 10;
+//         n = n / 10;
+//     }
+//     reverse = reverse / 10;
+//     printf("The reverse of the number is %d", reverse);
+//     return 0;
+// }
