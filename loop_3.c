@@ -68,3 +68,38 @@
 //     printf("The reverse of the number is %d", reverse);
 //     return 0;
 // }
+
+// #include <stdio.h>
+// int main()
+// {
+//     int n, i;
+//     int fact = 1;
+//     printf("Enter a number : ");
+//     scanf("%d", &n);
+//     for(i = 1; i <=n ; i++)
+//     {
+//         fact = fact * i;
+//     }
+//     printf("factorial = %d", fact);
+//     return 0;
+// }
+
+#include <stdio.h>
+int main()
+{
+    int a, b, c;
+    int i;
+    int n;
+    printf("Enter a value of n : ");
+    scanf("%d", &n);
+    a = 1, b= 1;
+    printf(" %d %d ", a , b);
+    for(i = 1; i <= n; i++)
+    {
+        c = a +b;
+        a = b + c;
+        b = a + c;
+        printf(" %d %d %d ", c, a, b);
+    }
+    return 0;
+}
