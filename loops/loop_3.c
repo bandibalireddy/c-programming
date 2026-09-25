@@ -84,22 +84,23 @@
 //     return 0;
 // }
 
-#include <stdio.h>
-int main()
-{
-    int a, b, c;
-    int i;
-    int n;
-    printf("Enter a value of n : ");
-    scanf("%d", &n);
-    a = 1, b= 1;
-    printf(" %d %d ", a , b);
-    for(i = 1; i <= n; i++)
-    {
-        c = a +b;
-        a = b + c;
-        b = a + c;
-        printf(" %d %d %d ", c, a, b);
-    }
-    return 0;
-}
+// #include <stdio.h>
+// int main()
+// {
+//     int a, b, c;
+//     int i;
+//     int n;
+//     printf("Enter a value of n : ");
+//     scanf("%d", &n);
+//     a = 1, b= 1;
+//     printf(" %d %d ", a , b);
+//     for(i = 1; i <= n; i++)
+//     {
+//         c = a +b;
+//         a = b + c;
+//         b = a + c;
+//         printf(" %d %d %d ", c, a, b);
+//     }
+//     return 0;
+// }
+
