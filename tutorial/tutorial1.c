@@ -33,12 +33,25 @@ int main()
     // a  = a - b;
     // printf("%d %d",a , b);
 
-    float r;
-    printf("Enter the radius of the circle : ");
-    scanf("%f", &r);
-    float area = (22 * r * r) / 7;
-    printf("Area = %f", area);
-
+    // float r;
+    // printf("Enter the radius of the circle : ");
+    // scanf("%f", &r);
+    // float area = (22 * r * r) / 7;
+    // printf("Area = %f", area);
+    // float l, b;
+    // printf("Enter the length of the rectangle : ");
+    // scanf("%f", &l);
+    // printf("Enter the breadth of the rectangle : ");
+    // scanf("%f", &b);
+    // float arear = (l * b);
+    // printf("area of rectangle = %f", arear);
+    // float length , height;
+    // printf("Enter the length of the triangle : ");
+    // scanf("%f", &length);
+    // printf("Enter the breadth of the triangle : ");
+    // scanf("%f", &height);
+    // float areat = (length * height) / 2;
+    // printf("area of the triangle =  %f", areat);
 
 
 
