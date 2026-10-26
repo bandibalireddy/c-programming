@@ -35,21 +35,31 @@
 //     return 0;
 // }
 
-#include <stdio.h>
+// #include <stdio.h>
 
-int main()
-{
-    int n;
-    int digit ;
-    int reverse = 0;
-    printf("enter the number : ");
-    scanf("%d", &n);
-    while (n != 0)
-    {
-        digit = n % 10;
-        reverse = (reverse * 10) + digit;
-        n = n /10;
-    }
-    printf("%d", reverse);
-    return 0;
-}
+// int main()
+// {
+//     int n;
+//     int digit ;
+//     int reverse = 0;
+//     printf("enter the number : ");
+//     scanf("%d", &n);
+//     while (n != 0)
+//     {
+//         digit = n % 10;
+//         reverse = (reverse * 10) + digit;
+//         n = n /10;
+//     }
+//     printf("%d", reverse);
+//     return 0;
+// }
+
+// #include <stdio.h>
+
+// int main()
+// {
+//     float n;
+//     scanf("%f", &n);
+//     printf("%.2f", n);
+//     return 0;
+// }
