@@ -70,3 +70,49 @@
 
 
 
+// #include <stdio.h>
+// void number(int n)
+// {
+// 	if(n == 1)
+// 	{
+// 		printf("1");
+// 		return ;
+// 	}
+// 	printf("%d", n);
+// 	number(n - 1);
+// 	return ;
+// }
+// int main()
+// {
+// 	int n;
+// 	printf("Enter a number : ");
+// 	scanf("%d", &n);
+// 	number(n);
+// 	return 0;
+// }
+
+
+
+// #include <stdio.h>
+// void sum(int n, int s = 0)
+// {
+// 	if(n == 0)
+// 	{
+// 		printf("%d", s);
+// 		return ;
+// 	}
+// 	sum(n - 1, n + s);
+// 	return ;
+// }
+// int main()
+// {
+// 	int n;
+	
+// 	printf("Enter a number : ");
+// 	scanf("%d", &n);
+// 	sum(n,0);
+// 	return 0;
+// }
+
+
+
