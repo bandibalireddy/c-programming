@@ -144,3 +144,31 @@
 
 
 
+// a^b
+// #include <stdio.h>
+// int power(int a, int b)
+// {
+// 	if(b == 0)
+// 	{
+// 		return 1;
+// 	}
+// 	int ans = a * power(a, b - 1);
+// 	return ans;
+// }
+
+// int main()
+// {
+// 	int a;
+// 	printf("Enter a base : ");
+// 	scanf("%d", &a);
+// 	int b;
+// 	printf("Enter a number : ");
+// 	scanf("%d", &b);
+//     int res;
+//     res = power(a, b);
+//     printf("%d", res);
+// 	return 0;
+// }
+
+
+
