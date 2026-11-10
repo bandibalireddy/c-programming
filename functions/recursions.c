@@ -116,3 +116,31 @@
 
 
 
+// a^b
+// #include <stdio.h>
+// void power(int a, int b)
+// {
+// 	int i;
+// 	int ans = a;
+// 	for(i = 1;i<b; i++)
+// 	{
+// 		ans = ans*a;
+// 	}
+// 	printf("%d", ans);
+// 	return;
+// }
+
+// int main()
+// {
+// 	int a;
+// 	printf("Enter a number : ");
+// 	scanf("%d", &a);
+// 	int b;
+// 	printf("Enter a number : ");
+// 	scanf("%d", &b);
+//     power(a, b);
+// 	return 0;
+// }
+
+
+
