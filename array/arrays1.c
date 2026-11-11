@@ -9,6 +9,9 @@ int main()
 	printf("%d\n", arr[2]);
 	printf("%d\n", arr[3]);
 	printf("%d\n", arr[4]);
+	//int num = 10,arr[num]
+	//continous memory allocation
+	//that means the address of them is continous
 	// numbering starts from 0
 	// to declare simply int name
 	// to change the value simply arr[2] = 34;
