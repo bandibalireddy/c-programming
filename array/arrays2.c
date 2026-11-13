@@ -172,6 +172,33 @@ int main()
     // printf("%d is the number of the pairs\n", count);
 
 
+	// need to do some modifications
+	// how many pairs exist in an array which upon adding gives us the number which we choosen
+	// int pair[6];
+	// int count = 0, g, mys, m,s;
+	// for(g =0; g<6;g++)
+	// {
+	// 	printf("enter a number : ");
+	// 	scanf("%d", &pair[g]);
+	// }
+	// printf("Enter the mysterious number : ");
+	// scanf("%d", &mys);
+	// for(g =0; g<6;g++)
+	// {
+	// 	for(m =0; m<6;m++)
+	//     {
+	//     	for(s = 0;s<6;s++)
+	//     	{
+	//     		if(g !=m && pair[g]+pair[m] + pair[s] == mys && g != s && m != s)
+	// 			{
+	// 				count = count + 1;
+	// 			}
+	// 		}
+	//     }
+	// }
+	// printf("%d is the number of the pairs", count / 3 );
+
+
 	
 	return 0;
 }
