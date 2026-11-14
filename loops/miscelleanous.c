@@ -22,5 +22,18 @@ int main()
 	{
 		printf("It is a prime number.");
 	}
+
+// 	int i = 10;
+// 	while(i<100)
+// 	{
+// 		printf("%d", i);
+// 		i++;
+//    }
+// 	do{
+// 		printf("Hello world");
+// 		i++;
+// 	}while(i<20);
+
+	
 	return 0;
 }
