@@ -109,6 +109,21 @@ int main()
 	// }
 	// printf("The factorial is %d\n", fact);
 
+	// nth fibonacci number(1 1 2 3 5 8 ...)
+	// int n;
+	// printf("Enter a number : ");
+	// scanf("%d", &n);
+	// int a,b,sum,temp = 0;
+	// a = 1,b = 1;
+	// int i;
+	// for(i = 1;i<=n - 2;i++)
+	// {
+	// 	sum = a + b;
+	// 	a = b;
+	// 	b = sum;
+	// }
+	// printf("%d", sum);
+
 	
 	return 0;
 }
