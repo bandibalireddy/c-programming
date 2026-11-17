@@ -124,6 +124,55 @@ int main()
 	// }
 	// printf("%d", sum);
 
-	
+	// a raised to the power of b;
+	// int a,b,ans = 1;
+	// printf("Enter the base : ");
+	// scanf("%d", &a);
+	// printf("Enter the power : ");
+	// scanf("%d", &b);
+	// int i;
+	// for(i = 0;i<b;i++)
+	// {
+	// 	ans = ans * a;
+	// }
+	// printf("The answer is %d", ans);
+
+	// Typecasting
+	//int x;
+	//x = 65;
+	//printf("%d\n", x);
+	//char ch = (char)x;
+	//printf("%c\n", ch);
+	// char ch = 'A';
+	// printf("%c\n", ch);
+	// int x = (int)ch;
+	// printf("%d\n", x);
+	// int i = 65;
+	// while(i <= 90)
+	// {
+	// 	printf("%c ",i);
+	// 	i++;
+	// }
+
+	// Armstrong Number (153 = (1)^3 + (5)^3 + (3)^3
+	// int n;
+	// printf("Enter a number : ");
+	// scanf("%d", &n);
+	// int digit,sum = 0;
+	// int temp = n;
+	// while(n != 0)
+	// {
+	// 	digit = n % 10;
+	// 	sum = sum + (digit * digit * digit);
+	// 	n = n / 10;
+	// }	
+	// if(temp == sum)
+	// {
+	// 	printf("The given number is an armstrong number.");
+	// }
+	// else
+	// {
+	// 	printf("The given number is not an armstrong number.");
+	// }
 	return 0;
 }
