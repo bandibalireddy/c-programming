@@ -61,3 +61,59 @@
 // int* -> stores the address of any int
 // int** -> stores the address of any int*
 
+// #include <stdio.h>
+// int main()
+// {
+// 	int a,b,high,min;
+// 	printf("Enter a number : ");
+// 	scanf("%d", &a);
+// 	printf("Enter a number : ");
+// 	scanf("%d", &b);
+// 	min = a;
+// 	if(min>b)
+// 	{
+// 		min = b;
+// 	}
+// 	int i;
+// 	for(i = 1;i<=min;i++)
+// 	{
+// 		if(min % i == 0)
+// 		{
+// 			high = i;
+// 		}
+// 	}
+// 	printf("%d", high);
+// }
+
+// #include <stdio.h>
+// int min(int a,int b)
+// {
+// 	int mini = a;
+// 	if(mini > b)
+// 	{
+// 		mini = b;
+// 	}
+// 	return mini;
+// }
+// int gcd(int a,int b)
+// {
+// 	int i,high;
+// 	for(i = 1;i<=min(a,b);i++)
+// 	{
+// 		if(a % i == 0 && b % i == 0)
+// 		{
+// 			high = i;
+// 		}
+// 	}
+// 	return high;
+// }
+// int main()
+// {
+// 	int a,b;
+// 	printf("Enter a number : ");
+// 	scanf("%d", &a);
+// 	printf("Enter a number : ");
+// 	scanf("%d", &b);
+// 	int hcf = gcd(a,b);
+// 	printf("The HCF of the two number is : %d", hcf);
+// }
