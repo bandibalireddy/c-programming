@@ -220,3 +220,78 @@ int main()
 // 	printf("The minimum element in the array is %d", min);
 // }
 
+// Minimum element in an array
+// #include <stdio.h>
+// int main()
+// {
+// 	int n,m;
+// 	printf("Enter the number of rows : ");
+// 	scanf("%d", &n);
+// 	printf("Enter the number of columns : ");
+// 	scanf("%d", &m);
+// 	int arr[n][m];
+// 	int i,j;
+// 	for(i = 0;i<n;i++)
+// 	{
+// 		for(j = 0;j<m;j++)
+// 		{
+// 			printf("Enter a number : ");
+// 			scanf("%d", &arr[i][j]);
+// 		}
+// 	}
+// 	int a= 0,b = 0;
+// 	int min = arr[0][0];
+// 	for(i = 0;i<n;i++)
+// 	{
+// 		for(j = 0;j<m;j++)
+// 		{
+// 			if(min > arr[i][j])
+// 			{
+// 				min = arr[i][j];
+// 				a = i,b = j;
+// 			}
+// 		}
+// 	}
+// 	printf("The minimum element in the array is %d", min);
+// 	printf("The index in the array is %d %d ", a,b);
+// }
+
+// The sum of elements from one index to another.
+// #include <stdio.h>
+// int main()
+// {
+// 	int n,m;
+// 	printf("Enter the number of rows : ");
+// 	scanf("%d", &n);
+// 	printf("Enter the number of columns : ");
+// 	scanf("%d", &m);
+// 	int arr[n][m];
+// 	int i,j;
+// 	for(i = 0;i<n;i++)
+// 	{
+// 		for(j = 0;j<m;j++)
+// 		{
+// 			printf("Enter a number : ");
+// 			scanf("%d", &arr[i][j]);
+// 		}
+// 	}
+// 	int sum = 0;
+// 	int a,b,c,d;
+// 	printf("Enter your desired row : ");
+// 	scanf("%d", &a);
+// 	printf("Enter your desired row : ");
+// 	scanf("%d", &b);
+// 	printf("Enter your desired column : ");
+// 	scanf("%d", &c);
+// 	printf("Enter your desired column : ");
+// 	scanf("%d", &d);
+// 	for(i = a;i<=b;i++)
+// 	{
+// 		for(j = c;j<=d;j++)
+// 		{
+// 			sum = sum + arr[i][j];
+// 		}
+// 	}
+// 	printf("The desired sum is %d", sum);
+// }
+
