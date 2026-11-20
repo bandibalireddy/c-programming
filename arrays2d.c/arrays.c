@@ -64,3 +64,159 @@ int main()
 // 	}
 // }
 
+// #include <stdio.h>
+// int main()
+// {
+// 	int std[4][2];
+// 	int i,j;
+// 	for(i = 0;i<4;i++)
+// 	{
+// 		for(j = 0;j<2;j++)
+// 		{
+// 			printf("Enter the roll numbers and marks : ");
+// 			scanf("%d", &std[i][j]);
+// 		}
+// 	}
+// 	for(i = 0;i<4;i++)
+// 	{
+// 		for(j = 0;j<2;j++)
+// 		{
+// 			printf("%d ", std[i][j]);
+// 		}
+// 		printf("\n");
+// 	}
+// }
+
+// Addition of matrixes
+// #include <stdio.h>
+// int main()
+// {
+// 	int arr[2][2];
+// 	int i,j;
+// 	for(i = 0;i<2;i++)
+// 	{
+// 		for(j = 0;j<2;j++)
+// 		{
+// 			printf("Enter a number : ");
+// 			scanf("%d", &arr[i][j]);
+// 		}
+// 	}
+// 	int brr[2][2];
+// 	for(i = 0;i<2;i++)
+// 	{
+// 		for(j = 0;j<2;j++)
+// 		{
+// 			printf("Enter a number : ");
+// 			scanf("%d", &brr[i][j]);
+// 		}
+// 	}
+// 	int add[2][2];
+// 	for(i = 0;i<2;i++)
+// 	{
+// 		for(j = 0;j<2;j++)
+// 		{
+// 			add[i][j] = arr[i][j] + brr[i][j];
+// 		}
+// 	}
+// 	for(i = 0;i<2;i++)
+// 	{
+// 		for(j = 0;j<2;j++)
+// 		{
+// 			printf("%d  ", add[i][j]);
+// 		}
+// 		printf("\n");
+// 	}
+// }
+
+// sum of given matrixes of n * m
+// #include <stdio.h>
+// int main()
+// {
+// 	int n,m;
+// 	printf("Enter the number of rows : ");
+// 	scanf("%d", &n);
+// 	printf("Enter the number of columns : ");
+// 	scanf("%d", &m);
+// 	int arr[n][m];
+// 	int i,j;
+// 	for(i = 0;i<n;i++)
+// 	{
+// 		for(j = 0;j<m;j++)
+// 		{
+// 			printf("Enter a number : ");
+// 			scanf("%d", &arr[i][j]);
+// 		}
+// 	}
+// 	int sum = 0;
+// 	for(i = 0;i<n;i++)
+// 	{
+// 		for(j = 0;j<m;j++)
+// 		{
+// 			sum = sum + arr[i][j];
+// 		}
+// 	}
+// 	printf("The total sum is %d", sum);
+// }
+
+// Maximum element in an array
+// #include <stdio.h>
+// int main()
+// {
+// 	int n,m;
+// 	printf("Enter the number of rows : ");
+// 	scanf("%d", &n);
+// 	printf("Enter the number of columns : ");
+// 	scanf("%d", &m);
+// 	int arr[n][m];
+// 	int i,j;
+// 	for(i = 0;i<n;i++)
+// 	{
+// 		for(j = 0;j<m;j++)
+// 		{
+// 			printf("Enter a number : ");
+// 			scanf("%d", &arr[i][j]);
+// 		}
+// 	}
+// 	int max = arr[0][0];
+// 	for(i = 0;i<n;i++)
+// 	{
+// 		for(j = 0;j<m;j++)
+// 		{
+// 			if(max < arr[i][j])
+// 			max = arr[i][j];
+// 		}
+// 	}
+// 	printf("The maximum element in the array is %d", max);
+// }
+
+// Minimum element in an array
+// #include <stdio.h>
+// int main()
+// {
+// 	int n,m;
+// 	printf("Enter the number of rows : ");
+// 	scanf("%d", &n);
+// 	printf("Enter the number of columns : ");
+// 	scanf("%d", &m);
+// 	int arr[n][m];
+// 	int i,j;
+// 	for(i = 0;i<n;i++)
+// 	{
+// 		for(j = 0;j<m;j++)
+// 		{
+// 			printf("Enter a number : ");
+// 			scanf("%d", &arr[i][j]);
+// 		}
+// 	}
+// 	int min = arr[0][0];
+// 	for(i = 0;i<n;i++)
+// 	{
+// 		for(j = 0;j<m;j++)
+// 		{
+// 			if(min > arr[i][j])
+// 			min = arr[i][j];
+// 		}
+// 	}
+// 	printf("The minimum element in the array is %d", min);
+// }
+
