@@ -34,7 +34,6 @@
 // #include <stdio.h>
 // int main()
 // {
-	
 // 	char arr[] = "Good morning, such a lovely day!\0";
 // 	int i = 0;
 // 	while(arr[i] != '\0')
@@ -44,4 +43,23 @@
 //  	}
 // 	return 0;
 // }
+
+// in methods like char arr[10] = {'h','e','l','l','o',' ','b','a','l','i'}; computer doesn't automatically put a \0 in the end
+// but in the above code it automatically puts a \0 incase if you didn't keep it.
+
+// #include <stdio.h>
+// int main()
+// {
+// 	char str[20] = "Bali reddy";
+// 	int i = 0;
+// 	str[0] = 65;
+// 	while(str[i] != '\0')
+// 	{
+// 		printf("%c", str[i]);
+// 		i++;
+// 	}
+// 	return 0;
+// }
+
+// in arrays arr[i] == i[arr] & *(i + arr) == *(arr + i)
 
