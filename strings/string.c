@@ -14,7 +14,7 @@
 // 	}
 // 	return 0;
 // }
-// A -> 65    a -> 97    0 -> 48    9 -> 57
+// A -> 65    a -> 97    0 -> 48    9 -> 57    \0 -> 0
 
 
 // #include <stdio.h>
@@ -26,6 +26,22 @@
 // 	{
 // 		printf("%c",arr[i]);
 // 	}
+//  char ch = '\0';
+//	printf("%d", ch);
+// 	return 0;
+// }
+
+// #include <stdio.h>
+// int main()
+// {
+	
+// 	char arr[] = "Good morning, such a lovely day!\0";
+// 	int i = 0;
+// 	while(arr[i] != '\0')
+// 	{
+// 		printf("%c",arr[i]);
+// 		i++;
+//  	}
 // 	return 0;
 // }
 
