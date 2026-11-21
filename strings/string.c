@@ -63,3 +63,32 @@
 
 // in arrays arr[i] == i[arr] & *(i + arr) == *(arr + i)
 
+// // #include <stdio.h>
+// // #include <string.h>
+// // int main()
+// // {
+// // 	char str[20] = "Bali reddy";
+// 	//instead of for loop and while loop simply use printf
+// 	printf("%s\n", str);
+// 	//instead of printf you can simply use puts
+// 	// You don't need to worry about the next line problem with puts as it has an in-built function so no need to use "\n"
+// 	puts(str);
+// 	puts(str);
+// 	// You can use puts like printf for example
+// 	puts("anything double quoted are strings\n");
+// 	char arr[50];
+// 	printf("please enter something : ");
+// 	// for string no need the use of & in scanf
+//     //scanf("%s", arr);
+//     //puts(arr);
+// 	// incase you enter bali reddy while giving input scanf stops at space so you get only bali
+// 	// so as mentioned above that's why we use gets
+// 	//gets(arr);
+// 	//puts(arr);
+// 	// so using gets we can take entire line as input
+// 	// If you feel like you will only use scanf then instead of %s use %[^\n]s this will be the remedy to the space problem
+// 	scanf("%[^\n]s",arr);
+// 	puts(arr);
+// 	return 0;
+// }
+
