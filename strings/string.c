@@ -92,3 +92,23 @@
 // 	return 0;
 // }
 
+// Reversing a string
+// #include <stdio.h>
+// #include <string.h>
+// int main()
+// {
+// 	char str[100];
+// 	printf("please enter something : ");
+// 	scanf("%[^\n]s", str);
+// 	int digit,i = 0;
+// 	while(str[i] != '\0')
+// 	{
+// 		digit = digit + 1;
+// 		i++;
+// 	}
+// 	for(i = 0;i<+digit;i++)
+// 	{
+// 		printf("%c", str[digit - i]);
+// 	}
+// }
+
